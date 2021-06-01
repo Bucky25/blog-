@@ -6,7 +6,7 @@ import About from './pages/about';
 import Events from './pages/events';
 import AnnualReport from './pages/annual';
 import Teams from './pages/team';
-import Blogs from './pages/blogs';
+import Blog from './pages/blogs';
 import SignUp from './pages/signup';
 
 
@@ -20,7 +20,7 @@ return (
 			<Route path='/events' component={Events} />
 			<Route path='/annual' component={AnnualReport} />
 			<Route path='/team' component={Teams} />
-			<Route path='/blogs' component={Blogs} />
+			<Route path='/blog' component={Blog} />
 			<Route path='/sign-up' component={SignUp} />
 		</Switch>
 		</Router>

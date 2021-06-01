@@ -1,0 +1,31 @@
+.blog__content {
+    margin: 20% 20%;
+    background-color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    margin: 1rem;
+    position: relative;
+    width:70%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.blog__header {
+    background-color:rgb(190, 218, 241)
+}
+
+.blog__img {
+    align-items: center;
+    margin:auto;
+    width:70%;
+    height:auto;
+}
+
+img{
+    padding:auto 10%;
+    max-width: 1000px;
+}
+
+.blog {
+    background-color: #e2e1e0
+}

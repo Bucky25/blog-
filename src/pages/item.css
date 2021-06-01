@@ -1,20 +1,15 @@
-.item {
-    display: inline-table;
-    align-items: center;
-    margin: 10px;
-    padding: 20px;
-    min-width: 100px;
-    background-color: white;
-    z-index: 1;
-  }
-
-.item_image {
+.card {
+    flex: 1 1 301px;
+    flex-direction: column;
     overflow: hidden;
-    border-radius: 3px;
-    box-shadow: var(--shadow-base);
-    transition: box-shadow .3s var(--animation-base);
+    margin: 0 0 40px;
+    padding: 0 20px 40px;
+    min-height: 220px;
+    border-bottom: 10px solid #eaeff1;
+    background-size: cover;
 }
 
-.item_image:hover {
-    box-shadow: 0 0 20px rgb(0 0 0 / 12%);
+.card,
+.card:hover {
+    border-bottom-color: color-mod(var(--darkmode) l(+8%));
 }
