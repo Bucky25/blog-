@@ -8,12 +8,13 @@ import AnnualReport from './pages/annual';
 import Teams from './pages/team';
 import Blog from './pages/blogs';
 import SignUp from './pages/signup';
-import Footer from './pages/Footer';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
 function App() {
 return (
 	<div className="app">
-		
+		<Navbar/>
 		<Router>
 		<Switch>
 			<Route path='/' exact component={Home} />
