@@ -12,7 +12,7 @@ function Header() {
     <Nav className="ml-auto">
       <Nav.Link style={styles.navlinks} href="#features">Features</Nav.Link>
       <Nav.Link style={styles.navlinks} href="#pricing">Pricing</Nav.Link>
-      <Nav.Link style={styles.navlinks} href="#deets">More deets</Nav.Link>
+      <Nav.Link style={styles.navlinks} href="#deets">More Details </Nav.Link>
       <Nav.Link style={styles.navlinks} eventKey={2} href="#memes">Your Blogs</Nav.Link>
     <Button variant="Light">Sign UP</Button>{' '}
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Navbar'
+import Header from './pages/Navbar'
 
 function App() {
   return (
