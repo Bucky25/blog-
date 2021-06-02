@@ -5,7 +5,7 @@ import './Body.css'
 function Body() {
     return (
         <div className="body">
-            <h1 className="body_header">The Blogs</h1>
+            <h1 className="body_header">Recent Blogs</h1>
             <div className="row">
                 <BlogCard />
                 <BlogCard />
