@@ -8,11 +8,12 @@ import AnnualReport from './pages/annual';
 import Teams from './pages/team';
 import Blog from './pages/blogs';
 import SignUp from './pages/signup';
-
+import Footer from './pages/Footer';
 
 function App() {
 return (
 	<div className="app">
+		
 		<Router>
 		<Switch>
 			<Route path='/' exact component={Home} />
@@ -24,6 +25,7 @@ return (
 			<Route path='/sign-up' component={SignUp} />
 		</Switch>
 		</Router>
+		<Footer/>
 	</div>
 );
 }
