@@ -14,7 +14,8 @@ function Header() {
       <Nav.Link style={styles.navlinks} href="#pricing">Pricing</Nav.Link>
       <Nav.Link style={styles.navlinks} href="#deets">More Details </Nav.Link>
       <Nav.Link style={styles.navlinks} eventKey={2} href="#memes">Your Blogs</Nav.Link>
-    <Button variant="Light">Sign UP</Button>{' '}
+      <Nav.Link style={styles.navlinks} eventKey={2} href="login">Sign Up</Nav.Link>
+    {/* <Button variant="Light">Sign Up</Button>{' '} */}
 
     </Nav>
   </Navbar.Collapse>

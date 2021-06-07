@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { Link, useHistory } from "react-router-dom";
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 
 function Login() {
   const history = useHistory();
@@ -39,7 +39,7 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+          src="https://revenuearchitects.com/wp-content/uploads/2017/02/Blog_pic.png"
           alt=""
         />
       </Link>
@@ -70,7 +70,7 @@ function Login() {
           Notice.
         </p>
         <button onClick={register} className="login__registerButton">
-          Create your Amazon Account
+          Create your Blog Account
         </button>
       </div>
     </div>
