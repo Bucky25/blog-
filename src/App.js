@@ -22,12 +22,7 @@ return (
 			<Route path='/annual' component={AnnualReport} />
 			<Route path='/team' component={Teams} />
 			<Route path='/blog' component={Blog} />
-<<<<<<< HEAD
 			<Route path='/login' component={Login} />
-		</Switch>
-=======
-			<Route path='/sign-up' component={SignUp} />
->>>>>>> e774b99bb66da7054286c7dfb47ca2033c97e9f0
 		</Router>
 		<Footer/>
 	</div>

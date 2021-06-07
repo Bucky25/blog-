@@ -11,14 +11,6 @@ function Header() {
   <Navbar.Collapse id="responsive-navbar-nav">
     
     <Nav className="ml-auto">
-<<<<<<< HEAD
-      <Nav.Link style={styles.navlinks} href="#features">Features</Nav.Link>
-      <Nav.Link style={styles.navlinks} href="#pricing">Pricing</Nav.Link>
-      <Nav.Link style={styles.navlinks} href="#deets">More Details </Nav.Link>
-      <Nav.Link style={styles.navlinks} eventKey={2} href="#memes">Your Blogs</Nav.Link>
-      <Nav.Link style={styles.navlinks} eventKey={2} href="login">Sign Up</Nav.Link>
-    {/* <Button variant="Light">Sign Up</Button>{' '} */}
-=======
     <LinkContainer to="/">
       <Nav.Link style={styles.navlinks} >Features</Nav.Link>
     </LinkContainer> 
@@ -31,10 +23,9 @@ function Header() {
     <LinkContainer to="/annual">
       <Nav.Link style={styles.navlinks} >Your Blogs</Nav.Link>
     </LinkContainer>
-    <LinkContainer to="/sign-up">  
+    <LinkContainer to="/login">  
       <Nav.Link style={styles.navlinks} >Sign Up</Nav.Link>
     </LinkContainer>
->>>>>>> e774b99bb66da7054286c7dfb47ca2033c97e9f0
 
     </Nav>
   </Navbar.Collapse>
