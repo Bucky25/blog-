@@ -1,0 +1,9 @@
+.cardview:hover {
+    box-shadow: 0 0 20px rgb(0 0 0 / 12%);
+}
+
+.cardview {
+    margin: 0px 100px;
+    padding: 2rem 0rem;
+    align-items: center;
+}
