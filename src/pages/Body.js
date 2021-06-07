@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogCard from './item'
+import BlogCard from './Card'
 import './Body.css'
 
 function Body() {
