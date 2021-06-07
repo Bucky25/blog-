@@ -11,9 +11,9 @@ return (
 			<img src="https://post.healthline.com/wp-content/uploads/2020/07/pizza-beer-1200x628-facebook-1200x628.jpg" />
 		</div>
 		<div className="blog__content">
-			<p>
+			<h2>
 				<strong>Title/Main Heading of the Blog</strong>
-			</p>
+			</h2>
 			<p>
 				Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10
 				minutes.Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
