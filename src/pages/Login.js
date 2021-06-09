@@ -65,7 +65,7 @@ function Login() {
         </form>
 
         <p>
-          By signing-in you agree to Amazon's Conditions of Use & Sale. Please
+          By signing-in you agree to Blogeer's Conditions of Use & Sale. Please
           see our Privacy Notice, our Cookies Notice and our Interest-Based Ads
           Notice.
         </p>
