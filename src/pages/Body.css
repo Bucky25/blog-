@@ -1,8 +1,11 @@
 .body_header {
+    display: block;
     padding: 2rem 3rem;
     text-align: center;
 }
 .body {
+    /* display: flex; */
+    align-items: center;
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -15,10 +18,25 @@
     /* background-color: #F0F0F0; */
 } 
 
-.row {
+.cards_container{
+  /* display: flex; */
+  align-items:center;
+}
+
+.row1 {
+  max-width: 1200px;
   display: flex;
+  align-items:center;
   z-index: 1;
   align-items: center;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: auto auto;
+}
+
+.row3 {
+  max-width: 1200px;
+  display: flex;
+  align-items:center;
+  z-index: 1;
+  align-items: center;
+  margin: auto auto;
 }
