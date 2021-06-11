@@ -4,11 +4,11 @@
     /* text-align: center; */
 }
 
-.poster {
+/* .poster {
   min-width: 100%;
   min-height: 200px;
   background: linear-gradient(rgb(235, 239, 250) 0%, rgba(248, 249, 252, 0) 90%);
-}
+} */
 
 .body > h1 {
     position: relative;

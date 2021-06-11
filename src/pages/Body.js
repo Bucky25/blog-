@@ -7,9 +7,9 @@ import CardWithImage from './cardview'
 function Body() {
     return (
         <div className="body">
-            {/* <div className="poster">
+            <div className="poster">
 
-            </div> */}
+            </div>
             <h1 className="body_header">Recent Blogs</h1>
             <div className="cards_container">
                 <div className="row1">
