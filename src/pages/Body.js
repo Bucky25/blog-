@@ -6,12 +6,14 @@ import CardWithImage from './cardview'
 function Body() {
     return (
         <div className="body">
+            {/* <div className="poster">
+
+            </div> */}
             <h1 className="body_header">Recent Blogs</h1>
             <div className="cards_container">
                 <div className="row1">
                     <BlogCard />
                     <BlogCard />
-                    {/* <BlogCard /> */}
                 </div>
                 <div className="row2">
                     <CardWithImage />
@@ -19,7 +21,6 @@ function Body() {
                 <div className="row3">
                     <BlogCard />
                     <BlogCard />
-                    {/* <BlogCard /> */}
                 </div>
             </div>
 

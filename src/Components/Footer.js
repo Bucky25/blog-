@@ -54,7 +54,7 @@ function Footer() {
           </Col>
         </Row>
         <Row style={styles.row}>
-            @ 2021 Copyright:Pied Pipers
+            @ 2021 Copyright : Pied Papers
         </Row>
      </Col>
   </Row>

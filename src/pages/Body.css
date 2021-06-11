@@ -1,10 +1,23 @@
 .body_header {
-    display: block;
-    padding: 2rem 3rem;
-    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    /* text-align: center; */
 }
+
+.poster {
+  min-width: 100%;
+  min-height: 200px;
+  background: linear-gradient(rgb(235, 239, 250) 0%, rgba(248, 249, 252, 0) 90%);
+}
+
+.body > h1 {
+    position: relative;
+    left: 0px;
+}
+
 .body {
     /* display: flex; */
+    background: linear-gradient(rgb(235, 239, 250) 0%, rgba(248, 249, 252, 0) 20%);
     align-items: center;
     max-width: 1500px;
     margin-left: auto;
