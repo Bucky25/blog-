@@ -36,13 +36,6 @@ function Login() {
 
   return (
     <div className="login">
-      <Link to="/">
-        <img
-          className="login__logo"
-          src="https://revenuearchitects.com/wp-content/uploads/2017/02/Blog_pic.png"
-          alt=""
-        />
-      </Link>
 
       <div className="login__container">
         <h1>Sign in</h1>

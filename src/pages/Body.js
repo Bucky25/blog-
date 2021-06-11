@@ -3,6 +3,7 @@ import BlogCard from './Card'
 import './Body.css'
 import CardWithImage from './cardview'
 
+
 function Body() {
     return (
         <div className="body">
@@ -23,7 +24,6 @@ function Body() {
                     <BlogCard />
                 </div>
             </div>
-
         </div>
     )
 }

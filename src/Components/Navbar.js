@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import './Navbar.css';
-import { Link } from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
 
 function Header() {
+  const history = useHistory();
+
   // const [show, handleShow] = useState(false);
 
   // const transitionNavBar = () => {
@@ -23,8 +25,8 @@ function Header() {
   return (
     <div style={styles.nvbar} className={`nav nav__black`}>
      <Navbar collapseOnSelect expand="md" variant="light">
-     <Navbar.Brand style={styles.brandname} href="#home">
-      <div className="logo"> 
+     <Navbar.Brand style={styles.brandname} href="/">
+      <div className="logo" onClick={()=>(history.push('/'))}> 
         <img src="./images/logo.png" alt="Free Online Logo Maker">
         </img>
       </div>  

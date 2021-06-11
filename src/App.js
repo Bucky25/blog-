@@ -11,11 +11,12 @@ import Login from './pages/Login';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 
+
 function App() {
 return (
 	<div className="app">
 		<Router>
-		<Navbar/>
+		<Navbar />
 			<Route path='/' exact component={Home} />
 			<Route path='/about' component={About} />
 			<Route path='/events' component={Events} />
@@ -23,8 +24,8 @@ return (
 			<Route path='/team' component={Teams} />
 			<Route path='/blog' component={Blog} />
 			<Route path='/login' component={Login} />
+		<Footer />
 		</Router>
-		<Footer/>
 	</div>
 );
 }
