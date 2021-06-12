@@ -1,4 +1,5 @@
 import React from 'react';
+import './Card.css';
 import {useSelector} from 'react-redux'
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
@@ -19,13 +20,15 @@ import { selectUser } from '../features/counter/userSlice';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    display: 'flex',
     maxWidth: 345,
     marginLeft: 'auto',
     marginRight: 'auto',
     marginBottom: '80px',
+    // borderBox: '1px solid'
   },
   spacing: {
-    paddingRight: '120px'
+    marginRight: '120px'
   },
   media: {
     height: 0,
@@ -51,7 +54,7 @@ export default function BlogCard() {
   };
 
   return (
-    <Card className={classes.root}>
+    <Card className='card'>
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
@@ -85,7 +88,7 @@ export default function BlogCard() {
         <IconButton className={classes.spacing} aria-label="share">
           <ShareIcon />
         </IconButton>
-        <Button size="small" color="primary" onClick={handleClick}>
+        <Button style={{ marginLeft:"100px" }} size="small" color="primary" onClick={handleClick}>
           Learn More
         </Button>
       </CardActions>
@@ -93,55 +96,4 @@ export default function BlogCard() {
     </Card>
   );
 }
-
-
-//         <Card style={{ width: '30rem'}}> 
-//                         <Card.Img variant="top" src="https://thumbs-prod.si-cdn.com/VWUfYczkW75icGsaiu8RFwiyAoY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/29/0f/290fb8c0-1872-46e5-8c12-235742905def/science_smithsonian_magazine_booklist_2019.png" />
-//                         <Card.Body>
-//                             <Card.Title>Card Title</Card.Title>
-//                             <Card.Text>
-//                                 Some quick example text to build on the card title and make up the bulk of
-//                                 the card's content.
-//                             </Card.Text>
-//                             <Button variant="primary">Go somewhere</Button>
-//                         </Card.Body>
-//                     </Card>
-//     )
-// }
-
-        //             <div className="card">
-        //     <a>
-        //         <img className="card-image" src="https://thumbs-prod.si-cdn.com/VWUfYczkW75icGsaiu8RFwiyAoY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/29/0f/290fb8c0-1872-46e5-8c12-235742905def/science_smithsonian_magazine_booklist_2019.png">
-
-        //         </img>
-        //     </a>
-        //     <div class="card-content">
-        //         <a class="card-content-link" href="">
-        //             <header class="card-content-header">
-        //                 <div class="card-primary-tag">Automobile</div>
-        //                 <h2 class="card-title">Steering at 190kmph</h2>
-        //             </header>
-        //             <section class="card-excerpt">
-        //                 <p>Designing a lightweight, strong, customizable, comfortable steering wheel for a racecar</p>
-        //             </section>
-        //         </a>
-        //         <footer class="card-meta">
-        //             <ul class="author-list">
-        //                 <li class="author-list-item">
-        //                     <div class="author-name-tooltip">
-        //                         Ankit Sanghvi
-        //                     </div>
-        //                     <a href="" class="static-avatar">
-        //                         <img class="author-profile-image" src="https://thumbs-prod.si-cdn.com/VWUfYczkW75icGsaiu8RFwiyAoY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/29/0f/290fb8c0-1872-46e5-8c12-235742905def/science_smithsonian_magazine_booklist_2019.png" />
-        //                     </a>
-        //                  </li>
-        //             </ul>
-        //             <div class="card-byline-content">
-        //                 <span><a href="">Ankit Sanghvi</a></span>
-        //                 <span class="card-byline-date"><time datetime="2021-04-16">16 Apr 2021</time> <span class="bull">•</span> 9 min read</span>
-        //             </div>
-        //         </footer>
-        //     </div>
-        // </div>
-
 

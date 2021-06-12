@@ -1,9 +1,25 @@
 .cardview:hover {
     box-shadow: 0 0 20px rgb(0 0 0 / 12%);
+    transform: scale3d(1.006, 1.006, 1);
 }
 
+.blog_image {
+    min-width: 700px;
+    margin : 0 50px;
+}
+
+.blog_image :hover,:focus {
+    transform: scale3d(1.006, 1.006, 1);
+  }
+
+.blog_image:focus::after {
+    opacity: 1;
+}  
+
 .cardview {
-    margin: 0px 100px;
+    display:flex;
+    margin: 0px 150px;
+    margin-bottom:80px;
     padding: 2rem 0rem;
     align-items: center;
 }
