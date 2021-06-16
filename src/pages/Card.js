@@ -43,7 +43,7 @@ export default function BlogCard() {
   const classes = useStyles();
   const history = useHistory();
   const user = useSelector(selectUser);
-
+  
   const handleClick = () => {
     if (user) {
       history.push('/blog')

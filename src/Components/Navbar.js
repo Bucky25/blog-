@@ -23,8 +23,8 @@ function Header() {
   // },[])
 
   return (
-    <div style={styles.nvbar} className={`nav nav__black`}>
-     <Navbar collapseOnSelect expand="md" variant="light">
+    <div style={styles.nvbar} >
+     <Navbar collapseOnSelect expand="md" variant="light" bg="light" fixed="top" >
      <Navbar.Brand style={styles.brandname} href="/">
       <div className="logo" onClick={()=>(history.push('/'))}> 
         <img src="./images/logo.png" alt="Free Online Logo Maker">
@@ -35,20 +35,17 @@ function Header() {
      <Navbar.Collapse id="responsive-navbar-nav">
     
       <Nav className="ml-auto">
-       <LinkContainer to="/">
-       <Nav.Link style={styles.navlinks} >Home</Nav.Link>
-       </LinkContainer> 
-       <LinkContainer to="/about">
-       <Nav.Link style={styles.navlinks} >Pricing</Nav.Link>
+      <LinkContainer to="/">
+         <Nav.Link style={styles.navlinks} >Home</Nav.Link>
+      </LinkContainer> 
+      <LinkContainer to="/about">
+        <Nav.Link style={styles.navlinks} >About</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to="/blog">  
+          <Nav.Link style={styles.navlinks} >Your Blogs</Nav.Link>
        </LinkContainer>
-       <LinkContainer to="/contact">
-       <Nav.Link style={styles.navlinks}>More Details </Nav.Link>
-       </LinkContainer>
-       <LinkContainer to="/annual">
-       <Nav.Link style={styles.navlinks} >Your Blogs</Nav.Link>
-       </LinkContainer>
-       <LinkContainer to="/login">  
-       <Nav.Link style={styles.navlinks} >Sign Up</Nav.Link>
+      <LinkContainer to="/login">  
+          <Nav.Link style={styles.navlinks} >Sign Up</Nav.Link>
        </LinkContainer>
 
       </Nav>
@@ -62,14 +59,15 @@ function Header() {
 
 const styles = {
     nvbar:{
-      marginBottom:"20px",
+      marginBottom:"2rem",
       width:"100%",
       align:"centre",
       margin:"auto",
       fontFamily: "Arial"
     },
     navlinks: {
-      padding:"8px 20px 8px 20px"
+      padding:" 8px",
+
     },
     brandname: {
       fontSize:"26px",
