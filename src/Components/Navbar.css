@@ -1,0 +1,15 @@
+.nav{
+    z-index:1;
+    /* animations of navbar */
+    /* transition-timing-function: ease-in;
+    transition: all 0.5s; */
+    position:fixed;
+}
+
+.nav__black{
+    background-color: white;
+}
+
+.logo{
+    margin-right: 36rem;
+}
